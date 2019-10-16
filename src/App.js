@@ -1,5 +1,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
+import  Mike from './components/MikeWasHere'
+
 import './App.css';
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
   }, []);
   return (
     <main>
+      <Mike />
       <h1>Create React App + Go API</h1>
       <h2>
         Deployed with{' '}
